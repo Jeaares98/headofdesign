@@ -1,182 +1,263 @@
-# Salto Führerschein — Weekly Execution
+# Salto Führerschein — Weekly Campaign HUD
 
-> Keep this page brutally simple. It exists to turn the Growth OS into action.
+> Open this page when you want to know what to do next. Keep it simple.
 
-## Week of
+## PLAYER STATUS
 
-YYYY-MM-DD
+**Week:** YYYY-MM-DD
 
-## Current counter
+**Current Chapter:** Chapter 1 — Hamburg Starts Talking
 
-**Backflips:** ___ / 1,000
+**Current Level:** Level 1 — Spawn Point
 
-## This week's goal
+**Backflip Counter:** ___ / 1,000
 
-One sentence only.
+**XP this week:** ___
 
-> Example: Generate 20 qualified bookings by making the Creator Challenge visible across Hamburg.
+**Current streak:** ___ weeks shipping consistently
 
 ---
 
-# Top 3 priorities
+# NOW
 
-## 1. Priority
+## 🎯 MAIN QUEST
 
-**Outcome:**
+**Quest:**
 
-**Next action:**
+**Why this matters:**
 
-**Owner:**
+**Definition of done:**
 
-**Deadline:**
-
-**Channel / Account:**
-
-**CTA:**
-
-**Success signal:**
-
-
-## 2. Priority
-
-**Outcome:**
-
-**Next action:**
+- [ ]
+- [ ]
+- [ ]
 
 **Owner:**
 
 **Deadline:**
-
-**Channel / Account:**
-
-**CTA:**
-
-**Success signal:**
-
-
-## 3. Priority
-
-**Outcome:**
-
-**Next action:**
-
-**Owner:**
-
-**Deadline:**
-
-**Channel / Account:**
-
-**CTA:**
 
 **Success signal:**
 
 ---
 
-# Hero content this week
+## 🎥 CONTENT TO SHIP
 
-**Story:**
+Maximum 3 active pieces.
+
+### 1. Hero Content
+
+**Quest type:** Main
 
 **Hook:**
 
-**Person / Subject:**
+**Story:**
 
-**Format:** Reel / Story / Post / Live / PR / Activation
+**Format:**
+
+**Account:** JEAAARES / Salto Führerschein / Partner / Creator
+
+**Shots / Assets needed:**
+
+- [ ] hook / opening statement
+- [ ] tension / attempt / problem
+- [ ] payoff
+- [ ] reaction
+- [ ] Backflip # / movement branding
+- [ ] CTA
+
+**CTA:**
+
+**Publish:**
+
+**Done when:**
+
+
+### 2. Support Content
+
+**Quest type:** Main / Side
+
+**Hook:**
+
+**Format:**
 
 **Account:**
 
 **CTA:**
 
-**Assets needed:**
+**Publish:**
 
-- [ ] opening statement
-- [ ] attempts / process
-- [ ] successful backflip
-- [ ] reaction
-- [ ] Backflip #number
-- [ ] nomination
-- [ ] CTA end card
 
----
+### 3. Optional Side Quest
 
-# Content queue
+Only activate if Main Quest is on track.
 
-| Status | Idea | Pillar | Account | Format | CTA | Publish |
-|---|---|---|---|---|---|---|
-| Idea | | | | | | |
-| Ready | | | | | | |
-| Posted | | | | | | |
+**Idea:**
 
-Use only the content that matters this week. The full backlog lives in `salto-fuehrerschein-growth-os.md`.
+**Why now:**
+
+**Done when:**
 
 ---
 
-# Outreach
+# NEXT
 
-| Person / Partner | Why them | Ask | Status | Next step |
+## 🔓 NEXT UNLOCK
+
+**Next Level / Quest:**
+
+**Unlock condition:**
+
+- [ ]
+- [ ]
+- [ ]
+
+Do not work on this early unless it directly helps the current Main Quest.
+
+---
+
+# LOCKED
+
+Keep future ideas visible but unavailable.
+
+- 🔒 Creator Challenge
+- 🔒 Neighborhood Battle
+- 🔒 Media Boss
+- 🔒 Hamburg Backflip Day
+- 🔒 Berlin Launch
+- 🔒 Germany City League
+
+Update locked items based on the current Chapter in `salto-campaign-game.md`.
+
+---
+
+# 👥 PEOPLE QUESTS
+
+Only people needed for the current Main Quest.
+
+| Person / Partner | Role in Quest | Ask | Status | Next Move |
 |---|---|---|---|---|
 | | | | | |
 
-Possible categories:
+---
 
-- Hamburg creator
-- artist / musician
-- journalist
-- company
-- university
-- community partner
-- sponsor / funder
+# ⚡ XP LOG
+
+Record evidence of momentum.
+
+| Event | XP | Evidence / Note |
+|---|---:|---|
+| Content shipped | +1 | |
+| Transformation published | +2 | |
+| Organic repost / mention | +2 | |
+| Nomination | +3 | |
+| UGC without prompting | +5 | |
+| Creator joins | +5 | |
+| Booking from content | +5 | |
+| Local media mention | +10 | |
+| New partner/location signal | +10 | |
+| 2x normal reach | +10 | |
+| Repeatable winning format found | +20 | |
+
+**Weekly XP total:** ___
+
+XP is directional. Real-world evidence matters more than perfect scoring.
 
 ---
 
-# Course-day capture
+# 🧪 WHAT ARE WE LEARNING?
 
-Before the course, assign who captures each moment.
+## Best signal this week
 
-- [ ] participant before statement
-- [ ] fear score
-- [ ] training progression
-- [ ] coaching moment
-- [ ] failed attempt
-- [ ] first successful backflip
-- [ ] reaction
-- [ ] testimonial
-- [ ] nomination
-- [ ] group shot
-- [ ] founder BTS
-- [ ] trainer / safety clip
+
+## Content that performed best
+
+
+## Why we think it worked
+
+
+## What created participation / bookings
+
+
+## What failed or felt weak
+
+
+## One mechanic to repeat
+
+
+## One mechanic to stop
+
 
 ---
 
-# End-of-week review
+# 🏆 BOSS FIGHT STATUS
 
-## What worked best?
+**Current Boss Fight:**
 
+**What needs to happen to beat it:**
 
-## What created bookings / participants?
+**Progress:** ___%
 
-
-## What got shared or discussed?
-
-
-## What did not work?
-
-
-## One thing to repeat next week
-
-
-## One thing to stop
-
-
-## New insight for the Growth OS
-
-Copy meaningful learnings into `salto-fuehrerschein-growth-os.md` under **Learnings Log**.
+**Evidence:**
 
 ---
 
-# Parking lot
+# 🧠 GAME MASTER DECISION
 
-New ideas go here during the week so they do not distract from the Top 3.
+At the end of the week Codex should decide one of three outcomes:
+
+### A — LEVEL UP
+The unlock conditions are met.
+
+**Next Level:**
+
+**First Main Quest:**
+
+### B — REPLAY
+The Level has promise but needs another iteration.
+
+**What we repeat:**
+
+**What we change:**
+
+### C — PIVOT QUEST
+Evidence shows the current mechanic is weak or another mechanic clearly wins.
+
+**What changes:**
+
+**Evidence:**
+
+**What replaces the current task:**
+
+---
+
+# 💡 LOOT / IDEA DROP
+
+New ideas go here during the week. They do not become tasks automatically.
 
 - 
 - 
 - 
+
+Codex may promote an idea only if it helps the current Level or there is strong evidence that it should replace an active Quest.
+
+---
+
+# CODEX QUICK COMMAND
+
+When asked what to do next, read:
+
+1. `salto-campaign-game.md`
+2. `salto-fuehrerschein-growth-os.md`
+3. this file
+
+Then respond only with:
+
+**NOW** — the one Main Quest
+
+**CONTENT** — maximum 3 pieces to ship
+
+**NEXT** — the unlock condition
+
+**LOCKED** — what we deliberately ignore
+
+The purpose of this HUD is clarity and execution, not more planning.
