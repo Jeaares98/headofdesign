@@ -4,8 +4,7 @@
 
 ## Core Principle
 
-This is not a static content calendar.
-It is a campaign game.
+This is not a static content calendar. It is a campaign game with a narrative engine.
 
 Each Chapter has:
 
@@ -16,11 +15,11 @@ Each Chapter has:
 - Boss Fights
 - Unlock conditions
 - XP signals
-- a clear content output
+- clear content and action outputs
 
 Codex should always help answer one question first:
 
-**What must we ship next to unlock the next level?**
+**What must JEAAARES ship or do next to move the story toward Backflip #1,000?**
 
 Do not create more ideas if the current Level still has unfinished Main Quests.
 
@@ -50,12 +49,304 @@ Future Chapters must be adapted based on real performance and learnings. Do not 
 
 ---
 
+# THE 1,000-BACKFLIP NARRATIVE ENGINE
+
+## Purpose
+
+The campaign must never feel like disconnected posts. Every action advances one continuous public story from the first participants to Backflip #1,000.
+
+The engine works as a loop:
+
+**Observe → Diagnose → Choose Story Beat → Generate Quests → Execute → Measure → Learn → Advance**
+
+This loop repeats until the counter reaches 1,000.
+
+## Campaign state
+
+Codex must maintain these state variables:
+
+- `backflip_count`
+- `current_chapter`
+- `current_level`
+- `current_story_question`
+- `current_main_quest`
+- `winning_content_format`
+- `weakest_growth_signal`
+- `strongest_growth_signal`
+- `active_people`
+- `active_press_targets`
+- `active_partners`
+- `organic_shares`
+- `nominations`
+- `ugc_count`
+- `creator_participants`
+- `bookings_from_content`
+- `press_mentions`
+- `city_demand_signals`
+- `capacity_available`
+- `biggest_learning`
+
+If data is missing, do not invent it. Mark it as unknown and create the smallest useful tracking task.
+
+## The permanent story spine
+
+The public story always follows this sequence:
+
+1. **Can normal people really learn this?**
+2. **Look who just did it.**
+3. **Who is next?**
+4. **Hamburg is joining.**
+5. **The city is competing / participating.**
+6. **People outside our bubble are noticing.**
+7. **Other cities want in.**
+8. **Which city can beat Hamburg?**
+9. **Germany is learning Backflip.**
+10. **Backflip #1,000.**
+
+Every new piece of content or activation must answer the current story question or deliberately create the next one.
+
+## Story-beat selector
+
+After each meaningful result, Codex determines what the audience needs next.
+
+### If awareness is weak
+Choose: **Explain the mission**
+
+Output examples:
+- hero reel
+- simple founder explanation
+- movement post
+- counter visual
+
+### If awareness exists but belief is weak
+Choose: **Show proof**
+
+Output examples:
+- transformation
+- unexpected participant
+- before/after fear
+- reaction
+
+### If proof is strong but sharing is weak
+Choose: **Create participation**
+
+Output examples:
+- nomination
+- voting
+- challenge accepted
+- bring-a-friend
+
+### If participation exists but reach is plateauing
+Choose: **Borrow distribution**
+
+Output examples:
+- creator episode
+- artist challenge
+- company team
+- community account collaboration
+
+### If Hamburg recognition is growing but external validation is weak
+Choose: **Create a newsworthy moment**
+
+Output examples:
+- milestone
+- journalist challenge
+- public leaderboard
+- event
+- city-wide activation
+
+### If Hamburg is proven and other-city demand appears
+Choose: **Create city tension**
+
+Output examples:
+- Hamburg vs Berlin
+- city waitlist
+- local captain
+- local creator challenge
+
+### If multiple cities work
+Choose: **Nationalize the format**
+
+Output examples:
+- Germany leaderboard
+- city-versus-city episodes
+- national creator chain
+- national Backflip Day
+
+## Narrative freshness rule
+
+Do not repeat the same story beat just because it performed once.
+
+Use this rule:
+
+- repeat the winning mechanism
+- change the person, tension, environment or consequence
+- preserve recognizable campaign language
+
+Example:
+
+Winning mechanism: first-backflip transformation.
+
+Do not post 20 identical edits. Progress the story:
+
+participant → unexpected participant → creator → journalist → company team → another city.
+
+The format stays recognizable while the stakes increase.
+
+## Stakes escalation algorithm
+
+Every 3–5 successful quests, raise at least one of these:
+
+- recognizability of person
+- number of participants
+- publicness of location
+- difficulty / surprise
+- social consequence
+- geographic scale
+- media relevance
+
+If stakes do not increase, the movement risks feeling repetitive.
+
+## Milestone story triggers
+
+Use counter milestones as automatic narrative events.
+
+Suggested triggers:
+
+- #10: Proof that the format works
+- #25: First community milestone
+- #50: Hamburg is joining
+- #100: major public proof + press push
+- #250: city-wide challenge / stronger event
+- #500: Hamburg milestone + Germany teaser
+- #750: countdown campaign
+- #900: final 100 campaign
+- #950: daily / frequent countdown
+- #999: one person left
+- #1,000: finale + next chapter decision
+
+Codex may alter milestone activations based on real momentum, but should never let a major counter milestone pass without a story beat.
+
+## Quest generator
+
+For every cycle, Codex creates at most one primary task in each lane:
+
+### CREATE
+What must be published?
+
+### ACTIVATE
+What must happen in the real world?
+
+### OUTREACH
+Who must be contacted to unlock distribution, trust or access?
+
+### OPERATE
+What must be prepared, measured or improved so the movement can continue?
+
+Not every lane needs a task every day. Never create busywork.
+
+## Priority score
+
+Each candidate quest is scored 1–5 on:
+
+- story progression
+- participation potential
+- shareability
+- proof / trust
+- distribution leverage
+- conversion / attendance
+- effort
+
+Use:
+
+**Quest Priority = Story + Participation + Shareability + Proof + Distribution + Conversion - Effort**
+
+Then apply one veto:
+
+**If the quest does not help unlock the current Level or exploit a strong live signal, it stays locked.**
+
+## Performance adaptation
+
+After every published piece or activation, record:
+
+- reach relative to account baseline
+- shares
+- saves
+- comments that show intent
+- DMs
+- tags / nominations
+- UGC
+- bookings / registrations
+- creator / media responses
+- qualitative audience reaction
+
+Then classify:
+
+### WINNER
+Clearly above baseline or produces meaningful participation.
+
+Action: repeat the mechanism with higher stakes.
+
+### SIGNAL
+Interesting response but insufficient evidence.
+
+Action: run one improved iteration.
+
+### WEAK
+Little meaningful reaction.
+
+Action: diagnose hook, subject, format, CTA or timing. Do not repeat unchanged.
+
+### DEAD
+Two weak iterations with no strategic reason to continue.
+
+Action: kill / park the mechanic.
+
+## Momentum protection
+
+If a major unexpected opportunity appears, such as:
+
+- recognizable creator asks to participate
+- journalist responds
+- brand offers support
+- another city shows strong demand
+- a video breaks far above baseline
+
+Codex may create an **Interrupt Quest**.
+
+Interrupt Quest rules:
+
+1. state the evidence
+2. state why timing matters
+3. identify which existing quest pauses
+4. define the immediate action
+5. return to the campaign path after exploitation
+
+## End condition
+
+The engine runs until:
+
+**Backflip Counter = 1,000**
+
+At #1,000 the campaign must not simply stop. Codex must create a finale and decide which long-term story is unlocked next:
+
+- 10,000 Germany-wide
+- annual national Backflip Day
+- city league
+- expanded Sidequest universe
+- another validated mission
+
+The next mission must be chosen from evidence, not excitement alone.
+
+---
+
 # GAME HUD
 
 Always keep these values visible:
 
 - Current Chapter
 - Current Level
+- Current Story Question
 - Main Quest
 - Active Side Quests
 - Backflip Counter
@@ -97,8 +388,7 @@ Make people repeatedly encounter the same recognizable story:
 
 **Wir bringen Hamburg den Backflip bei.**
 
-The first Chapter is not about being everywhere.
-It is about making the campaign easy to understand, repeat and recognize.
+The first Chapter is not about being everywhere. It is about making the campaign easy to understand, repeat and recognize.
 
 ## Chapter 1 Win Condition
 
@@ -114,8 +404,6 @@ Unlock Chapter 2 when most of these are true:
 
 Codex may recommend staying in Chapter 1 longer if the foundation is weak.
 
----
-
 ## LEVEL 1 — Spawn Point
 
 ### Objective
@@ -126,24 +414,10 @@ Ship the campaign identity.
 
 ### Required Content
 
-1. **Hero Reel — The Mission**
-   Hook: "Wir wollen Hamburg den Backflip beibringen."
-   Show: real attempts, reactions, successful backflips, the hall, community.
-   End: "1.000 Backflips für Hamburg. Wer ist als Nächstes dran?"
-
-2. **Founder Story — Why this exists**
-   Personal account.
-   Explain the experiment, free pilots, what surprised us and why it continues.
-
-3. **Movement Post / Carousel**
-   Explain:
-   - mission
-   - Backflip Counter
-   - what Salto Führerschein is
-   - how people can participate
-
-4. **Backflip # Template**
-   Every successful participant receives a number.
+1. Hero Reel — The Mission
+2. Founder Story — Why this exists
+3. Movement Post / Carousel
+4. Backflip # Template
 
 ### Side Quests
 
@@ -163,8 +437,6 @@ Move to Level 2 when:
 - first 5 numbered participants are published or prepared
 - campaign CTA is consistent
 
----
-
 ## LEVEL 2 — Proof of Backflip
 
 ### Objective
@@ -175,30 +447,10 @@ Turn participant transformations into a recurring series.
 
 ### Required Content
 
-1. **5x First Backflip Episodes**
-   Repeatable structure:
-   - fear / before statement
-   - attempts
-   - coaching
-   - first successful flip
-   - reaction
-   - Backflip #
-
-2. **Unexpected Person Episode**
-   Choose someone viewers would not automatically expect to do a backflip.
-
-3. **Fear Score Format**
-   Before: 1–10
-   After: 1–10
-
-4. **Course Day Recap**
-   Many people, one emotional montage.
-
-### Side Quests
-
-- Post failures before success.
-- Trainer explains one mental barrier.
-- Story quiz around common fears.
+1. 5x First Backflip Episodes
+2. Unexpected Person Episode
+3. Fear Score Format
+4. Course Day Recap
 
 ### Boss Fight
 
@@ -213,8 +465,6 @@ Move to Level 3 when:
 - at least one gets meaningful organic shares, saves, DMs or bookings
 - winning hook and edit pattern are documented
 
----
-
 ## LEVEL 3 — Nomination Loop
 
 ### Objective
@@ -225,26 +475,10 @@ Launch **Nominate the Next One**.
 
 ### Required Content
 
-1. **Nomination Launch Reel**
-   "Ich hab meinen Salto geschafft. Als Nächstes nominiere ich @____."
-
-2. **3 Nomination Chain Episodes**
-   Show A → B → C visually.
-
-3. **Story Template**
-   "Challenge accepted" / "You're next".
-
-4. **Participant Share Pack**
-   - clip
-   - Backflip # card
-   - nomination asset
-   - tag / CTA
-
-### Side Quests
-
-- Weekly nomination leaderboard.
-- Funniest nomination.
-- Most unexpected nomination.
+1. Nomination Launch Reel
+2. 3 Nomination Chain Episodes
+3. Story Template
+4. Participant Share Pack
 
 ### Boss Fight
 
@@ -257,40 +491,17 @@ Move to Level 4 when:
 - at least 3 nominees respond publicly or join
 - participant UGC begins appearing
 
----
-
 ## LEVEL 4 — Hamburg Faces
 
 ### Objective
 Borrow distribution from recognizable people without turning them into ads.
 
 ### Main Quest
-Launch the **Hamburg Creator Backflip Challenge**.
-
-### Required Content
-
-1. **Creator Challenge Announcement**
-2. **Creator Episode #1**
-3. **Creator Episode #2**
-4. **Creator Episode #3**
-5. **Leaderboard / challenge graphic**
-6. **Each creator nominates the next person**
+Launch the Hamburg Creator Backflip Challenge.
 
 ### Creator Rule
 
 The creator is the episode, not the advertiser.
-
-### Side Quests
-
-Target people from different worlds:
-- musician
-- comedian
-- dancer
-- founder
-- athlete
-- DJ
-- artist
-- local personality
 
 ### Boss Fight
 
@@ -303,8 +514,6 @@ Move to Level 5 when:
 - creator content clearly expands reach beyond owned audience
 - at least one chain nomination happens
 
----
-
 ## LEVEL 5 — Hamburg Is the Character
 
 ### Objective
@@ -313,41 +522,16 @@ Shift from "our course" to "our city".
 ### Main Quest
 Make Hamburg itself part of the game.
 
-### Required Content
-
-1. **Neighborhood Battle Launch**
-   Example: Altona vs. St. Pauli vs. Eimsbüttel etc.
-
-2. **Hamburg Backflip Map / Leaderboard**
-
-3. **Street Question Format**
-   Ask Hamburgers:
-   "Kannst du einen Backflip?"
-   or
-   "Würdest du dich trauen, heute einen zu lernen?"
-
-4. **Random Hamburger Episode**
-
-5. **Public Counter Milestone**
-
-### Side Quests
-
-- university challenge
-- company challenge teaser
-- neighborhood captain recruitment
+Potential formats:
+- Neighborhood Battle
+- Hamburg Backflip Map / Leaderboard
+- Street Question Format
+- Random Hamburger Episode
+- Public Counter Milestone
 
 ### Boss Fight
 
 Create a piece of content that makes sense even if the Salto Führerschein logo were removed because the Hamburg story is strong enough.
-
-### Unlock Condition
-
-Move to Level 6 when:
-- people identify with neighborhoods / city competition
-- organic comments name Hamburg people or places
-- local community accounts or organizations engage
-
----
 
 ## LEVEL 6 — Media Boss
 
@@ -357,105 +541,114 @@ Cross from social content into city conversation.
 ### Main Quest
 Create a press-worthy moment.
 
-### Required Actions / Content
-
-1. Current Hamburg Backflip Counter story.
-2. Press package.
-3. Journalist challenge invitation.
-4. One visual event or milestone worth covering.
-5. Founder story explaining the larger mission.
-
 ### Strong PR Angle
 
 **"Hamburger Projekt will 1.000 Menschen ihren ersten Rückwärtssalto beibringen."**
-
-### Side Quests
-
-- invite radio host
-- invite local journalist
-- invite city/community platform
-- challenge a recognizable Hamburg institution/team
 
 ### Boss Fight
 
 Earn external coverage or a meaningful external platform amplification.
 
-### Chapter 1 Completion
+---
 
-When the movement has proof, repeatable content, nominations, recognizable local faces and external validation:
+# OUTREACH QUEST SYSTEM
 
-**CHAPTER 2 UNLOCKED: HAMBURG JOINS**
+Outreach is gameplay, not admin.
+
+Every outreach task must be a card with:
+
+**Target:** person / outlet / partner
+
+**Why now:** what current story beat makes the contact relevant today?
+
+**Angle:** the one sentence they should care about
+
+**Ask:** one clear action
+
+**Proof:** what credibility / footage / numbers support the ask?
+
+**Asset:** what link or media do we send?
+
+**Follow-up:** when and what is the next move?
+
+**Done when:** sent / replied / booked / declined
+
+## Editorial / press quest
+
+Codex must never output only "contact local media".
+
+It should produce:
+
+1. exact target type or named outlet if known
+2. why the story fits them
+3. subject / opening line
+4. 3–5 sentence pitch
+5. which asset to attach
+6. the concrete invitation
+7. follow-up action
+
+Default press invitation:
+
+**Do not only report on the challenge — send someone to try it.**
+
+The journalist, host or creator becomes the episode.
+
+## Creator quest
+
+Output:
+
+- why this creator fits the current chapter
+- personal angle
+- what they would actually do
+- content outcome
+- nomination mechanic
+- message to send
+- follow-up
+
+## Partner quest
+
+Output:
+
+- partner value
+- movement value
+- proposed activation
+- required resources
+- first low-friction test
+- success signal
 
 ---
 
-# CHAPTER 2 — HAMBURG JOINS
+# CHAPTERS 2–6
 
-This chapter should be dynamically detailed using Chapter 1 learnings.
+## Chapter 2 — Hamburg Joins
+Primary question: **How do we make participation spread faster than our own posting capacity?**
 
 Likely systems:
-
 - Backflip Club
-- recurring open/community sessions
+- recurring community sessions
 - neighborhood captains
 - Hamburg Backflip Day
 - Company Backflip Cup
 - stronger referral rewards
 - UGC missions
-- community-created episodes
-- public counter installations
 
-Primary question:
-
-**How do we make participation spread faster than our own posting capacity?**
-
----
-
-# CHAPTER 3 — OWN THE CITY
+## Chapter 3 — Own the City
+Primary question: **What would make it difficult to live in Hamburg and not have heard about this?**
 
 Likely focus:
-
 - major Hamburg event
 - stronger press
 - citywide partnerships
-- 500 / 1,000 Backflip milestone
+- 500 / 1,000 milestone
 - public installations
-- recognizable Hamburg cultural figures
-- large finale / record-style activation
 
-Primary question:
-
-**What would make it difficult to live in Hamburg and not have heard about this?**
-
----
-
-# CHAPTER 4 — HAMBURG VS. GERMANY
-
-Do not simply announce "now in Berlin".
-Create tension.
+## Chapter 4 — Hamburg vs. Germany
+Primary question: **Can Hamburg's movement create demand in a city before the course fully launches there?**
 
 Potential narrative:
-
 **"Hamburg has X backflips. Which city can beat us?"**
 
-Likely first expansion:
-
-- Berlin challenge
-- Hamburg vs. Berlin counter
-- local creator captain
-- partner gym
-- launch event
-- city-specific Backflip numbers
-
-Primary question:
-
-**Can Hamburg's movement create demand in a city before the course fully launches there?**
-
----
-
-# CHAPTER 5 — GERMANY LEARNS BACKFLIP
-
-Potential city expansion system:
-
+## Chapter 5 — Germany Learns Backflip
 For every city unlock:
 
 1. local partner
@@ -467,24 +660,8 @@ For every city unlock:
 7. local PR
 8. city vs. city competition
 
-Potential Germany leaderboard:
-
-- Hamburg
-- Berlin
-- Cologne
-- Munich
-- Frankfurt
-- Leipzig
-- etc.
-
-Do not expand to cities only for optics. Unlock cities when demand + execution capacity justify it.
-
----
-
-# CHAPTER 6 — NATIONAL MOVEMENT
-
-Potential end-state mechanics:
-
+## Chapter 6 — National Movement
+Potential systems:
 - national Backflip Counter
 - Germany city leaderboard
 - annual Backflip Day
@@ -492,12 +669,10 @@ Potential end-state mechanics:
 - corporate league
 - festival activations
 - partner-funded access
-- record attempt
-- recognizable Salto Führerschein identity
 
 Long-term public story:
 
-**"Deutschland lernt Backflip."**
+**Deutschland lernt Backflip.**
 
 ---
 
@@ -537,73 +712,72 @@ Every content idea must be converted into this before execution:
 
 # CODEX GAME MASTER RULES
 
-When working on Salto Führerschein, Codex acts as Campaign Game Master.
+When working on Salto Führerschein, Codex acts as Campaign Game Master and Narrative Director.
 
 ## Before suggesting work
 
 1. Read this file.
 2. Read `salto-fuehrerschein-growth-os.md`.
 3. Read current weekly execution state.
-4. Identify current Chapter and Level.
-5. Check incomplete Main Quests.
-6. Use real performance learnings if available.
+4. Read the latest measurable results available.
+5. Identify current Chapter and Level.
+6. Identify the current public Story Question.
+7. Check incomplete Main Quests.
+8. Diagnose the weakest growth signal.
+9. Generate only the minimum actions needed to progress.
 
-## Output priority
+## Required user-facing output
 
-Always prioritize:
+When JEAAARES asks what to do, return this order:
 
-1. unfinished Main Quest
-2. blocked Main Quest
-3. highest-leverage Boss Fight preparation
-4. only then Side Quests
-5. new ideas last
+**STORY NOW** — what the audience must understand or feel next
 
-## When the user asks "What should I post?"
+**CREATE** — maximum 3 concrete content pieces
 
-Return:
+**ACTIVATE** — one real-world action if needed
 
-- Current Level
-- Today's Main Quest
-- exact content to produce
-- hook
-- shots / assets needed
-- CTA
-- definition of done
+**OUTREACH** — who to contact, why, and exact next move
 
-Maximum 3 content tasks unless explicitly asked for more.
+**OPERATE** — one supporting task if necessary
 
-## When a Level is completed
+**UNLOCK** — what evidence completes the current quest
 
-Summarize:
+**LOCKED** — what not to work on yet
 
-- what worked
-- what did not
-- strongest content mechanic
-- audience signal
-- next Level unlocked
-- first Main Quest of next Level
+## Anti-overwhelm rule
+
+Never dump the full campaign on the user when they need execution.
+
+Every task must be phrased as something JEAAARES can physically do.
+
+Bad:
+"Increase press awareness."
+
+Good:
+"Today: send the #100 milestone clip and a 5-sentence journalist challenge pitch to three Hamburg editorial targets. Invite one editor/host to attempt a backflip on camera."
+
+Bad:
+"Use creators."
+
+Good:
+"DM creator X with the challenge clip, ask them to attempt their first backflip, and require them to nominate the next Hamburg person if they complete it."
 
 ## Adaptive rule
 
 Do not blindly follow future Levels.
 
-If a new mechanic dramatically outperforms the roadmap, Codex may propose a new Side Quest, Boss Fight or Level, but must explain:
+If a new mechanic dramatically outperforms the roadmap, Codex may propose an Interrupt Quest, Side Quest, Boss Fight or new Level, but must explain:
 
 - evidence
 - why it matters
 - what existing task it replaces
 
-## Anti-overwhelm rule
+## Continuity rule
 
-Never show the entire roadmap when the user wants today's work.
-Show only:
+Never publish a random content idea without connecting it to:
 
-**NOW → NEXT → LOCKED**
+- the current story question
+- a previous story beat
+- the next unlock
 
-Example:
-
-NOW: Level 2 / publish transformation episode #3
-NEXT: launch Fear Score format
-LOCKED: Creator Challenge
-
-The game should create clarity, not complexity.
+The audience should feel that every episode is part of one journey toward Backflip #1,000.
