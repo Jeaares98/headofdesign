@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { ArrowRight, Check, ChevronRight, CircleDot, Clapperboard, LockKeyhole, Megaphone, Radio, Settings2, Sparkles, Trophy, Users, Zap } from "lucide-react";
+import { ArrowRight, BarChart3, Check, ChevronRight, CircleDot, Clapperboard, LockKeyhole, Megaphone, Radio, Settings2, Sparkles, Trophy, Users, Zap } from "lucide-react";
 
 const lanes = [
   { id:"create", label:"Create", icon:Clapperboard, title:"Hero Reel: Die Mission", detail:"45 Sek. · Hook, Proof, Einladung", meta:"+10 XP", color:"pink" },
@@ -15,7 +15,7 @@ export default function Home(){
   const done=completed.length, xp=47+done*10;
   const toggleQuest=(id:string)=>setCompleted(items=>items.includes(id)?items.filter(item=>item!==id):[...items,id]);
   return <main className="gameShell">
-    <nav className="gameNav" aria-label="Campaign Navigation"><a className="wordmark" href="#top">JEAAARES<span>®</span></a><div className="navCenter"><span className="liveDot"/> CAMPAIGN LIVE</div><button className="profile" aria-label="Profil öffnen"><span>JL</span><small>JEAAARES</small></button></nav>
+    <nav className="gameNav" aria-label="Campaign Navigation"><a className="wordmark" href="#top">JEAAARES<span>®</span></a><div className="navCenter"><span className="liveDot"/> CAMPAIGN LIVE</div><a className="adminLink" href="/admin"><BarChart3 size={15}/> ADMIN / BI</a></nav>
     <section className="hero" id="top"><div className="heroNoise"/><header className="chapterHeader"><div><p className="kicker">CHAPTER 01 / LEVEL 01</p><h1>HAMBURG<br/>SPRICHT.</h1></div><div className="xpBadge"><Zap size={18} fill="currentColor"/><span><strong>{xp}</strong> XP</span></div></header>
       <div className="progressBlock"><div className="progressCopy"><span>MISSION PROGRESS</span><strong>47 <small>/ 1.000 BACKFLIPS</small></strong></div><div className="progressRail"><i style={{width:`${4.7+done}%`}}/><b style={{left:`${4.7+done}%`}}/></div><div className="milestones"><span>#1</span><span>#100</span><span>#250</span><span>#500</span><span>#1.000</span></div></div>
       <div className="storyQuestion"><span><CircleDot size={16}/> STORY NOW</span><p>Kann wirklich jede Person<br/>einen Backflip lernen?</p><button onClick={()=>setStoryOpen(!storyOpen)}>{storyOpen?"ENGINE SCHLIESSEN":"STORY ENGINE"}<ArrowRight size={18}/></button></div>
