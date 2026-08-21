@@ -1,0 +1,25 @@
+:root{--radius-card:25px;--radius-control:14px;--stroke-light:rgba(255,255,255,.72);--stroke-dark:rgba(17,17,15,.14);--ease-spring:cubic-bezier(.2,.8,.2,1)}
+
+button,a,.laneCard,.mainQuest,.nextCard,.lockedCard,.adminCard,.dataTable,.intelPanel,.biGrid article,.platformGrid article,.loginCard{transition:transform .32s var(--ease-spring),box-shadow .32s var(--ease-spring),border-color .25s ease,background-color .25s ease}
+
+.mainQuest,.nextCard,.lockedCard,.laneCard,.adminCard,.dataTable,.intelPanel,.biGrid article,.platformGrid article,.loginCard{border-radius:var(--radius-card);overflow:hidden;border:1px solid var(--stroke-light);box-shadow:inset 0 1px 0 rgba(255,255,255,.5),inset 0 -1px 0 rgba(17,17,15,.05),0 1px 2px rgba(17,17,15,.05),0 14px 34px rgba(17,17,15,.07)}
+
+.mainQuest,.intelPanel,.trackingForm,.loginCard{border-color:rgba(255,255,255,.12);box-shadow:inset 0 1px 0 rgba(255,255,255,.12),inset 0 -1px 0 rgba(0,0,0,.65),0 2px 4px rgba(0,0,0,.22),0 24px 52px rgba(17,17,15,.14)}
+
+.laneCard,.platformGrid article,.biGrid article{position:relative;transform:perspective(900px) translateZ(0)}.laneCard:before,.platformGrid article:before,.biGrid article:before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(135deg,rgba(255,255,255,.58),transparent 28%,transparent 72%,rgba(17,17,15,.035));opacity:.7}
+.laneCard:hover,.laneCard.selected,.platformGrid article:hover,.biGrid article:hover{transform:perspective(900px) translateY(-5px) rotateX(1.2deg);box-shadow:inset 0 1px 0 #fff,0 3px 5px rgba(17,17,15,.06),0 22px 48px rgba(17,17,15,.13)}
+
+.storyQuestion button,.primaryAction,.loginCard button,.ideaForm button,.trackingForm>button,.platformGrid button,.ideaList button,.adminLink,.sync,.xpBadge,.unlockList span{border-radius:var(--radius-control);box-shadow:inset 0 1px 0 rgba(255,255,255,.7),inset 0 -2px 0 rgba(17,17,15,.12),0 5px 12px rgba(17,17,15,.09)}
+button:hover,.adminLink:hover{transform:translateY(-2px)}button:active,.adminLink:active{transform:translateY(1px) scale(.985);box-shadow:inset 0 2px 4px rgba(17,17,15,.18),0 1px 2px rgba(17,17,15,.05)}
+
+.laneTop button,.chapterTrack i,.liveDot,.adminUser>span{box-shadow:inset 0 1px 0 rgba(255,255,255,.85),inset 0 -2px 3px rgba(17,17,15,.12),0 4px 10px rgba(17,17,15,.1)}
+.progressRail{border-radius:999px;box-shadow:inset 0 2px 5px rgba(17,17,15,.18),0 1px 0 rgba(255,255,255,.28)}.progressRail i{border-radius:999px;box-shadow:0 0 18px rgba(255,255,255,.38)}
+
+.adminSide{box-shadow:inset -1px 0 0 rgba(255,255,255,.07),10px 0 38px rgba(17,17,15,.08)}.adminSide nav button{border-radius:12px}.adminSide nav button.active{box-shadow:inset 0 1px 0 rgba(255,255,255,.42),inset 0 -2px 0 rgba(17,17,15,.13),0 8px 18px rgba(0,0,0,.22)}
+.loginCard input,.trackingForm input,.trackingForm select,.ideaForm textarea{border-radius:12px}.ideaForm textarea{box-shadow:inset 0 2px 8px rgba(17,17,15,.055),0 1px 0 #fff}
+
+.hero:after{content:"";position:absolute;width:42vw;height:42vw;max-width:620px;max-height:620px;right:-14vw;top:-20vw;border-radius:50%;pointer-events:none;background:radial-gradient(circle at 38% 38%,rgba(255,255,255,.24),rgba(255,255,255,.04) 38%,transparent 68%);filter:blur(1px);animation:ambientFloat 12s ease-in-out infinite alternate}.hero>*:not(.heroNoise){position:relative;z-index:1}
+@keyframes ambientFloat{to{transform:translate3d(-22px,28px,0) scale(1.04)}}
+
+@media(max-width:600px){:root{--radius-card:20px}.laneCard:hover,.platformGrid article:hover,.biGrid article:hover{transform:translateY(-2px)}.hero:after{width:75vw;height:75vw;right:-35vw}}
+@media(prefers-reduced-motion:reduce){.hero:after{animation:none}button,a,.laneCard,.platformGrid article,.biGrid article{transition:none!important;transform:none!important}}

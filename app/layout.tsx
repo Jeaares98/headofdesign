@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import "./results.css";
 import "./admin.css";
+import "./polish.css";
 
 export const metadata: Metadata = {
   title: "Salto Campaign Game — JEAAARES",
