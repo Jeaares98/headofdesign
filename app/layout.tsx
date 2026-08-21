@@ -1,15 +1,17 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import "./results.css";
+import "./admin.css";
+import "./polish.css";
 
 export const metadata: Metadata = {
-  title: "Head of Design Console",
-  description: "Internal command center for the Head of Design agent.",
+  title: "Salto Campaign Game — JEAAARES",
+  description: "Die Mission zu 1.000 Backflips: Quests, Kapitel und Momentum in einer Oberfläche.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="de">
       <body>{children}</body>
     </html>
   );
